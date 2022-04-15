@@ -1,0 +1,849 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80CD485F2809FFB0003FC39B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CD485E2809FFB0003FC39B /* AppDelegate.swift */; };
+		80CD48632809FFB0003FC39B /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 80CD48612809FFB0003FC39B /* Main.html */; };
+		80CD48652809FFB0003FC39B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 80CD48642809FFB0003FC39B /* Icon.png */; };
+		80CD48672809FFB0003FC39B /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 80CD48662809FFB0003FC39B /* Style.css */; };
+		80CD48692809FFB0003FC39B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CD48682809FFB0003FC39B /* SceneDelegate.swift */; };
+		80CD486B2809FFB0003FC39B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CD486A2809FFB0003FC39B /* ViewController.swift */; };
+		80CD486E2809FFB0003FC39B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80CD486C2809FFB0003FC39B /* LaunchScreen.storyboard */; };
+		80CD48712809FFB0003FC39B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80CD486F2809FFB0003FC39B /* Main.storyboard */; };
+		80CD487D2809FFB6003FC39B /* Saudi_Safe_SitesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CD487C2809FFB6003FC39B /* Saudi_Safe_SitesTests.swift */; };
+		80CD48872809FFB6003FC39B /* Saudi_Safe_SitesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CD48862809FFB6003FC39B /* Saudi_Safe_SitesUITests.swift */; };
+		80CD48892809FFB6003FC39B /* Saudi_Safe_SitesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CD48882809FFB6003FC39B /* Saudi_Safe_SitesUITestsLaunchTests.swift */; };
+		80CD488F2809FFB6003FC39B /* Saudi Safe Sites Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 80CD488E2809FFB6003FC39B /* Saudi Safe Sites Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		80CD48942809FFB6003FC39B /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CD48932809FFB6003FC39B /* SafariWebExtensionHandler.swift */; };
+		80CD48972809FFB6003FC39B /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 80CD48962809FFB6003FC39B /* _locales */; };
+		80CD48992809FFB6003FC39B /* images in Resources */ = {isa = PBXBuildFile; fileRef = 80CD48982809FFB6003FC39B /* images */; };
+		80CD489B2809FFB6003FC39B /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 80CD489A2809FFB6003FC39B /* manifest.json */; };
+		80CD489D2809FFB6003FC39B /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 80CD489C2809FFB6003FC39B /* background.js */; };
+		80CD489F2809FFB6003FC39B /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 80CD489E2809FFB6003FC39B /* content.js */; };
+		80CD48A12809FFB6003FC39B /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 80CD48A02809FFB6003FC39B /* popup.html */; };
+		80CD48A32809FFB6003FC39B /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 80CD48A22809FFB6003FC39B /* popup.css */; };
+		80CD48A52809FFB6003FC39B /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 80CD48A42809FFB6003FC39B /* popup.js */; };
+		80CD48A72809FFB6003FC39B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80CD48722809FFB5003FC39B /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80CD48792809FFB6003FC39B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80CD48532809FFB0003FC39B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80CD485A2809FFB0003FC39B;
+			remoteInfo = "Saudi Safe Sites";
+		};
+		80CD48832809FFB6003FC39B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80CD48532809FFB0003FC39B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80CD485A2809FFB0003FC39B;
+			remoteInfo = "Saudi Safe Sites";
+		};
+		80CD48902809FFB6003FC39B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80CD48532809FFB0003FC39B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80CD488D2809FFB6003FC39B;
+			remoteInfo = "Saudi Safe Sites Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		80CD48AD2809FFB6003FC39B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				80CD488F2809FFB6003FC39B /* Saudi Safe Sites Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		80CD485B2809FFB0003FC39B /* Saudi Safe Sites.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Saudi Safe Sites.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80CD485E2809FFB0003FC39B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80CD48622809FFB0003FC39B /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		80CD48642809FFB0003FC39B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		80CD48662809FFB0003FC39B /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		80CD48682809FFB0003FC39B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		80CD486A2809FFB0003FC39B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80CD486D2809FFB0003FC39B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80CD48702809FFB0003FC39B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80CD48722809FFB5003FC39B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80CD48732809FFB5003FC39B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80CD48782809FFB6003FC39B /* Saudi Safe SitesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Saudi Safe SitesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80CD487C2809FFB6003FC39B /* Saudi_Safe_SitesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Saudi_Safe_SitesTests.swift; sourceTree = "<group>"; };
+		80CD48822809FFB6003FC39B /* Saudi Safe SitesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Saudi Safe SitesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80CD48862809FFB6003FC39B /* Saudi_Safe_SitesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Saudi_Safe_SitesUITests.swift; sourceTree = "<group>"; };
+		80CD48882809FFB6003FC39B /* Saudi_Safe_SitesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Saudi_Safe_SitesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		80CD488E2809FFB6003FC39B /* Saudi Safe Sites Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Saudi Safe Sites Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80CD48932809FFB6003FC39B /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		80CD48962809FFB6003FC39B /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		80CD48982809FFB6003FC39B /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		80CD489A2809FFB6003FC39B /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		80CD489C2809FFB6003FC39B /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		80CD489E2809FFB6003FC39B /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		80CD48A02809FFB6003FC39B /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		80CD48A22809FFB6003FC39B /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		80CD48A42809FFB6003FC39B /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		80CD48A62809FFB6003FC39B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80CD48582809FFB0003FC39B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80CD48752809FFB6003FC39B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80CD487F2809FFB6003FC39B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80CD488B2809FFB6003FC39B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80CD48522809FFB0003FC39B = {
+			isa = PBXGroup;
+			children = (
+				80CD485D2809FFB0003FC39B /* Saudi Safe Sites */,
+				80CD487B2809FFB6003FC39B /* Saudi Safe SitesTests */,
+				80CD48852809FFB6003FC39B /* Saudi Safe SitesUITests */,
+				80CD48922809FFB6003FC39B /* Saudi Safe Sites Extension */,
+				80CD485C2809FFB0003FC39B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80CD485C2809FFB0003FC39B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80CD485B2809FFB0003FC39B /* Saudi Safe Sites.app */,
+				80CD48782809FFB6003FC39B /* Saudi Safe SitesTests.xctest */,
+				80CD48822809FFB6003FC39B /* Saudi Safe SitesUITests.xctest */,
+				80CD488E2809FFB6003FC39B /* Saudi Safe Sites Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80CD485D2809FFB0003FC39B /* Saudi Safe Sites */ = {
+			isa = PBXGroup;
+			children = (
+				80CD485E2809FFB0003FC39B /* AppDelegate.swift */,
+				80CD48682809FFB0003FC39B /* SceneDelegate.swift */,
+				80CD486A2809FFB0003FC39B /* ViewController.swift */,
+				80CD486C2809FFB0003FC39B /* LaunchScreen.storyboard */,
+				80CD486F2809FFB0003FC39B /* Main.storyboard */,
+				80CD48722809FFB5003FC39B /* Assets.xcassets */,
+				80CD48732809FFB5003FC39B /* Info.plist */,
+				80CD48602809FFB0003FC39B /* Resources */,
+			);
+			path = "Saudi Safe Sites";
+			sourceTree = "<group>";
+		};
+		80CD48602809FFB0003FC39B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				80CD48612809FFB0003FC39B /* Main.html */,
+				80CD48642809FFB0003FC39B /* Icon.png */,
+				80CD48662809FFB0003FC39B /* Style.css */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		80CD487B2809FFB6003FC39B /* Saudi Safe SitesTests */ = {
+			isa = PBXGroup;
+			children = (
+				80CD487C2809FFB6003FC39B /* Saudi_Safe_SitesTests.swift */,
+			);
+			path = "Saudi Safe SitesTests";
+			sourceTree = "<group>";
+		};
+		80CD48852809FFB6003FC39B /* Saudi Safe SitesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				80CD48862809FFB6003FC39B /* Saudi_Safe_SitesUITests.swift */,
+				80CD48882809FFB6003FC39B /* Saudi_Safe_SitesUITestsLaunchTests.swift */,
+			);
+			path = "Saudi Safe SitesUITests";
+			sourceTree = "<group>";
+		};
+		80CD48922809FFB6003FC39B /* Saudi Safe Sites Extension */ = {
+			isa = PBXGroup;
+			children = (
+				80CD48932809FFB6003FC39B /* SafariWebExtensionHandler.swift */,
+				80CD48A62809FFB6003FC39B /* Info.plist */,
+				80CD48952809FFB6003FC39B /* Resources */,
+			);
+			path = "Saudi Safe Sites Extension";
+			sourceTree = "<group>";
+		};
+		80CD48952809FFB6003FC39B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				80CD48962809FFB6003FC39B /* _locales */,
+				80CD48982809FFB6003FC39B /* images */,
+				80CD489A2809FFB6003FC39B /* manifest.json */,
+				80CD489C2809FFB6003FC39B /* background.js */,
+				80CD489E2809FFB6003FC39B /* content.js */,
+				80CD48A02809FFB6003FC39B /* popup.html */,
+				80CD48A22809FFB6003FC39B /* popup.css */,
+				80CD48A42809FFB6003FC39B /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80CD485A2809FFB0003FC39B /* Saudi Safe Sites */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80CD48AE2809FFB6003FC39B /* Build configuration list for PBXNativeTarget "Saudi Safe Sites" */;
+			buildPhases = (
+				80CD48572809FFB0003FC39B /* Sources */,
+				80CD48582809FFB0003FC39B /* Frameworks */,
+				80CD48592809FFB0003FC39B /* Resources */,
+				80CD48AD2809FFB6003FC39B /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80CD48912809FFB6003FC39B /* PBXTargetDependency */,
+			);
+			name = "Saudi Safe Sites";
+			productName = "Saudi Safe Sites";
+			productReference = 80CD485B2809FFB0003FC39B /* Saudi Safe Sites.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80CD48772809FFB6003FC39B /* Saudi Safe SitesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80CD48B12809FFB6003FC39B /* Build configuration list for PBXNativeTarget "Saudi Safe SitesTests" */;
+			buildPhases = (
+				80CD48742809FFB6003FC39B /* Sources */,
+				80CD48752809FFB6003FC39B /* Frameworks */,
+				80CD48762809FFB6003FC39B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80CD487A2809FFB6003FC39B /* PBXTargetDependency */,
+			);
+			name = "Saudi Safe SitesTests";
+			productName = "Saudi Safe SitesTests";
+			productReference = 80CD48782809FFB6003FC39B /* Saudi Safe SitesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80CD48812809FFB6003FC39B /* Saudi Safe SitesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80CD48B42809FFB6003FC39B /* Build configuration list for PBXNativeTarget "Saudi Safe SitesUITests" */;
+			buildPhases = (
+				80CD487E2809FFB6003FC39B /* Sources */,
+				80CD487F2809FFB6003FC39B /* Frameworks */,
+				80CD48802809FFB6003FC39B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80CD48842809FFB6003FC39B /* PBXTargetDependency */,
+			);
+			name = "Saudi Safe SitesUITests";
+			productName = "Saudi Safe SitesUITests";
+			productReference = 80CD48822809FFB6003FC39B /* Saudi Safe SitesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		80CD488D2809FFB6003FC39B /* Saudi Safe Sites Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80CD48AA2809FFB6003FC39B /* Build configuration list for PBXNativeTarget "Saudi Safe Sites Extension" */;
+			buildPhases = (
+				80CD488A2809FFB6003FC39B /* Sources */,
+				80CD488B2809FFB6003FC39B /* Frameworks */,
+				80CD488C2809FFB6003FC39B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Saudi Safe Sites Extension";
+			productName = "Saudi Safe Sites Extension";
+			productReference = 80CD488E2809FFB6003FC39B /* Saudi Safe Sites Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80CD48532809FFB0003FC39B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					80CD485A2809FFB0003FC39B = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					80CD48772809FFB6003FC39B = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 80CD485A2809FFB0003FC39B;
+					};
+					80CD48812809FFB6003FC39B = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 80CD485A2809FFB0003FC39B;
+					};
+					80CD488D2809FFB6003FC39B = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 80CD48562809FFB0003FC39B /* Build configuration list for PBXProject "Saudi Safe Sites" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80CD48522809FFB0003FC39B;
+			productRefGroup = 80CD485C2809FFB0003FC39B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80CD485A2809FFB0003FC39B /* Saudi Safe Sites */,
+				80CD48772809FFB6003FC39B /* Saudi Safe SitesTests */,
+				80CD48812809FFB6003FC39B /* Saudi Safe SitesUITests */,
+				80CD488D2809FFB6003FC39B /* Saudi Safe Sites Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80CD48592809FFB0003FC39B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80CD48652809FFB0003FC39B /* Icon.png in Resources */,
+				80CD48712809FFB0003FC39B /* Main.storyboard in Resources */,
+				80CD486E2809FFB0003FC39B /* LaunchScreen.storyboard in Resources */,
+				80CD48632809FFB0003FC39B /* Main.html in Resources */,
+				80CD48A72809FFB6003FC39B /* Assets.xcassets in Resources */,
+				80CD48672809FFB0003FC39B /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80CD48762809FFB6003FC39B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80CD48802809FFB6003FC39B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80CD488C2809FFB6003FC39B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80CD489D2809FFB6003FC39B /* background.js in Resources */,
+				80CD48A32809FFB6003FC39B /* popup.css in Resources */,
+				80CD48A12809FFB6003FC39B /* popup.html in Resources */,
+				80CD48992809FFB6003FC39B /* images in Resources */,
+				80CD489B2809FFB6003FC39B /* manifest.json in Resources */,
+				80CD48972809FFB6003FC39B /* _locales in Resources */,
+				80CD489F2809FFB6003FC39B /* content.js in Resources */,
+				80CD48A52809FFB6003FC39B /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80CD48572809FFB0003FC39B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80CD486B2809FFB0003FC39B /* ViewController.swift in Sources */,
+				80CD485F2809FFB0003FC39B /* AppDelegate.swift in Sources */,
+				80CD48692809FFB0003FC39B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80CD48742809FFB6003FC39B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80CD487D2809FFB6003FC39B /* Saudi_Safe_SitesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80CD487E2809FFB6003FC39B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80CD48872809FFB6003FC39B /* Saudi_Safe_SitesUITests.swift in Sources */,
+				80CD48892809FFB6003FC39B /* Saudi_Safe_SitesUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80CD488A2809FFB6003FC39B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80CD48942809FFB6003FC39B /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80CD487A2809FFB6003FC39B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80CD485A2809FFB0003FC39B /* Saudi Safe Sites */;
+			targetProxy = 80CD48792809FFB6003FC39B /* PBXContainerItemProxy */;
+		};
+		80CD48842809FFB6003FC39B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80CD485A2809FFB0003FC39B /* Saudi Safe Sites */;
+			targetProxy = 80CD48832809FFB6003FC39B /* PBXContainerItemProxy */;
+		};
+		80CD48912809FFB6003FC39B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80CD488D2809FFB6003FC39B /* Saudi Safe Sites Extension */;
+			targetProxy = 80CD48902809FFB6003FC39B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80CD48612809FFB0003FC39B /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80CD48622809FFB0003FC39B /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		80CD486C2809FFB0003FC39B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80CD486D2809FFB0003FC39B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		80CD486F2809FFB0003FC39B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80CD48702809FFB0003FC39B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80CD48A82809FFB6003FC39B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80CD48A92809FFB6003FC39B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80CD48AB2809FFB6003FC39B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8AZP28FHSB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Saudi Safe Sites Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Saudi Safe Sites Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alhokail.Saudi-Safe-Sites.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80CD48AC2809FFB6003FC39B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8AZP28FHSB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Saudi Safe Sites Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Saudi Safe Sites Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alhokail.Saudi-Safe-Sites.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		80CD48AF2809FFB6003FC39B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8AZP28FHSB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Saudi Safe Sites/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Saudi Safe Sites";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alhokail.Saudi-Safe-Sites";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80CD48B02809FFB6003FC39B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8AZP28FHSB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Saudi Safe Sites/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Saudi Safe Sites";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alhokail.Saudi-Safe-Sites";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		80CD48B22809FFB6003FC39B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8AZP28FHSB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alhokail.Saudi-Safe-SitesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Saudi Safe Sites.app/Saudi Safe Sites";
+			};
+			name = Debug;
+		};
+		80CD48B32809FFB6003FC39B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8AZP28FHSB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alhokail.Saudi-Safe-SitesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Saudi Safe Sites.app/Saudi Safe Sites";
+			};
+			name = Release;
+		};
+		80CD48B52809FFB6003FC39B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8AZP28FHSB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alhokail.Saudi-Safe-SitesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Saudi Safe Sites";
+			};
+			name = Debug;
+		};
+		80CD48B62809FFB6003FC39B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8AZP28FHSB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alhokail.Saudi-Safe-SitesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Saudi Safe Sites";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80CD48562809FFB0003FC39B /* Build configuration list for PBXProject "Saudi Safe Sites" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80CD48A82809FFB6003FC39B /* Debug */,
+				80CD48A92809FFB6003FC39B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80CD48AA2809FFB6003FC39B /* Build configuration list for PBXNativeTarget "Saudi Safe Sites Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80CD48AB2809FFB6003FC39B /* Debug */,
+				80CD48AC2809FFB6003FC39B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80CD48AE2809FFB6003FC39B /* Build configuration list for PBXNativeTarget "Saudi Safe Sites" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80CD48AF2809FFB6003FC39B /* Debug */,
+				80CD48B02809FFB6003FC39B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80CD48B12809FFB6003FC39B /* Build configuration list for PBXNativeTarget "Saudi Safe SitesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80CD48B22809FFB6003FC39B /* Debug */,
+				80CD48B32809FFB6003FC39B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80CD48B42809FFB6003FC39B /* Build configuration list for PBXNativeTarget "Saudi Safe SitesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80CD48B52809FFB6003FC39B /* Debug */,
+				80CD48B62809FFB6003FC39B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80CD48532809FFB0003FC39B /* Project object */;
+}
