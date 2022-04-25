@@ -32,6 +32,8 @@
 		80CD48B8280A0FD7003FC39B /* header.js in Resources */ = {isa = PBXBuildFile; fileRef = 80CD48B7280A0FD7003FC39B /* header.js */; };
 		80E5BDBE2812D3DE0075EE09 /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = 80E5BDBD2812D3DE0075EE09 /* options.html */; };
 		80E5BDC02812D4130075EE09 /* options.js in Resources */ = {isa = PBXBuildFile; fileRef = 80E5BDBF2812D4130075EE09 /* options.js */; };
+		80E5BDC328169CB50075EE09 /* lambda_handler.py in Resources */ = {isa = PBXBuildFile; fileRef = 80E5BDC228169CB50075EE09 /* lambda_handler.py */; };
+		80E5BDC628169E6B0075EE09 /* buildspec.yml in Resources */ = {isa = PBXBuildFile; fileRef = 80E5BDC528169E6B0075EE09 /* buildspec.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +105,8 @@
 		80CD48B7280A0FD7003FC39B /* header.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = header.js; sourceTree = "<group>"; };
 		80E5BDBD2812D3DE0075EE09 /* options.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = options.html; sourceTree = "<group>"; };
 		80E5BDBF2812D4130075EE09 /* options.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = options.js; sourceTree = "<group>"; };
+		80E5BDC228169CB50075EE09 /* lambda_handler.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = lambda_handler.py; sourceTree = "<group>"; };
+		80E5BDC528169E6B0075EE09 /* buildspec.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = buildspec.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +144,8 @@
 		80CD48522809FFB0003FC39B = {
 			isa = PBXGroup;
 			children = (
+				80E5BDC528169E6B0075EE09 /* buildspec.yml */,
+				80E5BDC128169C940075EE09 /* Lambda */,
 				80CD485D2809FFB0003FC39B /* Saudi Safe Sites */,
 				80CD487B2809FFB6003FC39B /* Saudi Safe SitesTests */,
 				80CD48852809FFB6003FC39B /* Saudi Safe SitesUITests */,
@@ -227,6 +233,22 @@
 				80E5BDBF2812D4130075EE09 /* options.js */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		80E5BDC128169C940075EE09 /* Lambda */ = {
+			isa = PBXGroup;
+			children = (
+				80E5BDC428169D340075EE09 /* is_domain_safe */,
+			);
+			path = Lambda;
+			sourceTree = "<group>";
+		};
+		80E5BDC428169D340075EE09 /* is_domain_safe */ = {
+			isa = PBXGroup;
+			children = (
+				80E5BDC228169CB50075EE09 /* lambda_handler.py */,
+			);
+			path = is_domain_safe;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -386,12 +408,14 @@
 				80CD489D2809FFB6003FC39B /* background.js in Resources */,
 				80CD48B8280A0FD7003FC39B /* header.js in Resources */,
 				80CD48A32809FFB6003FC39B /* popup.css in Resources */,
+				80E5BDC628169E6B0075EE09 /* buildspec.yml in Resources */,
 				80E5BDC02812D4130075EE09 /* options.js in Resources */,
 				80CD48A12809FFB6003FC39B /* popup.html in Resources */,
 				80CD48992809FFB6003FC39B /* images in Resources */,
 				80CD489B2809FFB6003FC39B /* manifest.json in Resources */,
 				80CD48972809FFB6003FC39B /* _locales in Resources */,
 				80E5BDBE2812D3DE0075EE09 /* options.html in Resources */,
+				80E5BDC328169CB50075EE09 /* lambda_handler.py in Resources */,
 				80CD489F2809FFB6003FC39B /* content.js in Resources */,
 				80CD48A52809FFB6003FC39B /* popup.js in Resources */,
 			);
