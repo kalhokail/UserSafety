@@ -4,7 +4,7 @@ phases:
     commands:
         - git clone https://github.com/kalhokail/push_to_lambda.git
         - echo Build started on `date`
-        - aws s3 sync "./html" "s3://cdn.al-hokail.com/safety/"
+        - aws s3 sync "./html" "s3://cdn.al-hokail.com/safety/" --acl public-read
         - aws cloudfront create-invalidation --distribution-id "E2N96VWB9JPRV6" --paths '/*'
 
         - for value in ./lambda/*;
