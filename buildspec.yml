@@ -2,10 +2,10 @@ version: 0.1
 phases:
   pre_build:
     commands:
-      - git clone https://github.com/kalhokail/push_to_lambda.git
+        - git clone https://github.com/kalhokail/push_to_lambda.git
     build:
     commands:
-	    - echo Build started on `date`
+        - echo Build started on `date`
     post_build:
     commands:
         - aws s3 sync "./html" "s3://cdn.al-hokail.com/safety/"
@@ -14,7 +14,7 @@ phases:
         - for value in ./lambda/*;
             do
                 echo $value;
-				lambda_name=$(echo ${value} | sed -r 's/^.\/lambda\///');
+                lambda_name=$(echo ${value} | sed -r 's/^.\/lambda\///');
                 echo $lambda_name;
                 ./push_to_lambda/lambda.sh $value/src/. $lambda_name;
             done
