@@ -1,24 +1,24 @@
 version: 0.1
 phases:
-	pre_build:
-		commands:
-			- git clone https://github.com/kalhokail/push_to_lambda.git
-	build:
-	commands:
-		- echo Build started on `date`
-	post_build:
-	commands:
-		- aws s3 sync "./html" "s3://cdn.al-hokail.com/safety/"
-		- aws cloudfront create-invalidation --distribution-id "E2N96VWB9JPRV6" --paths '/*'
+  pre_build:
+    commands:
+      - git clone https://github.com/kalhokail/push_to_lambda.git
+    build:
+    commands:
+	    - echo Build started on `date`
+    post_build:
+    commands:
+        - aws s3 sync "./html" "s3://cdn.al-hokail.com/safety/"
+        - aws cloudfront create-invalidation --distribution-id "E2N96VWB9JPRV6" --paths '/*'
 
-		- for value in ./lambda/*;
-			do
-				echo $value;
+        - for value in ./lambda/*;
+            do
+                echo $value;
 				lambda_name=$(echo ${value} | sed -r 's/^.\/lambda\///');
-				echo $lambda_name;
-				./push_to_lambda/lambda.sh $value/src/. $lambda_name;
-			done
+                echo $lambda_name;
+                ./push_to_lambda/lambda.sh $value/src/. $lambda_name;
+            done
 artifacts:
-	files:
-		- '**/*'
-	base-directory: build
+    files:
+        - '**/*'
+    base-directory: build
