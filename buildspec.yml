@@ -8,14 +8,16 @@ phases:
       - echo Build started on `date`
   post_build:
     commands:
-      - aws s3 cp html/* s3://cdn.al-hokail.com/safety --recursive --acl public-read
-      - for value in ./lambda/*;
-          do
-            echo $value;
-            lambda_name=$(echo ${value} | sed -r 's/^.\/lambda\///');
-            echo $lambda_name;
-            ./push_to_lambda/lambda.sh $value/src/. $lambda_name;
-          done
+		- aws s3 sync "./html" "s3://cdn.al-hokail.com/safety/"
+		- aws cloudfront create-invalidation --distribution-id "E2N96VWB9JPRV6" --paths '/*'
+
+		- for value in ./lambda/*;
+			do
+				echo $value;
+				lambda_name=$(echo ${value} | sed -r 's/^.\/lambda\///');
+				echo $lambda_name;
+				./push_to_lambda/lambda.sh $value/src/. $lambda_name;
+			done
 artifacts:
   files:
     - '**/*'
