@@ -246,9 +246,17 @@
 		80E5BDC428169D340075EE09 /* is_domain_safe */ = {
 			isa = PBXGroup;
 			children = (
-				80E5BDC228169CB50075EE09 /* lambda_handler.py */,
+				80E5BDC72816A25F0075EE09 /* src */,
 			);
 			path = is_domain_safe;
+			sourceTree = "<group>";
+		};
+		80E5BDC72816A25F0075EE09 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				80E5BDC228169CB50075EE09 /* lambda_handler.py */,
+			);
+			path = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
