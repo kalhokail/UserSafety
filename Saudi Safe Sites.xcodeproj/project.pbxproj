@@ -145,7 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				80E5BDC528169E6B0075EE09 /* buildspec.yml */,
-				80E5BDC128169C940075EE09 /* Lambda */,
+				80E5BDC128169C940075EE09 /* lambda */,
 				80CD485D2809FFB0003FC39B /* Saudi Safe Sites */,
 				80CD487B2809FFB6003FC39B /* Saudi Safe SitesTests */,
 				80CD48852809FFB6003FC39B /* Saudi Safe SitesUITests */,
@@ -235,12 +235,12 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		80E5BDC128169C940075EE09 /* Lambda */ = {
+		80E5BDC128169C940075EE09 /* lambda */ = {
 			isa = PBXGroup;
 			children = (
 				80E5BDC428169D340075EE09 /* is_domain_safe */,
 			);
-			path = Lambda;
+			path = lambda;
 			sourceTree = "<group>";
 		};
 		80E5BDC428169D340075EE09 /* is_domain_safe */ = {
