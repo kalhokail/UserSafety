@@ -8,6 +8,7 @@ phases:
       - echo Build started on `date`
   post_build:
     commands:
+      - aws s3 cp html/* s3://cdn.al-hokail.com/safety --recursive --acl public-read
       - for value in ./lambda/*;
           do
             echo $value;
