@@ -29,6 +29,9 @@
 		80CD48A32809FFB6003FC39B /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 80CD48A22809FFB6003FC39B /* popup.css */; };
 		80CD48A52809FFB6003FC39B /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 80CD48A42809FFB6003FC39B /* popup.js */; };
 		80CD48A72809FFB6003FC39B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80CD48722809FFB5003FC39B /* Assets.xcassets */; };
+		80CD48B8280A0FD7003FC39B /* header.js in Resources */ = {isa = PBXBuildFile; fileRef = 80CD48B7280A0FD7003FC39B /* header.js */; };
+		80E5BDBE2812D3DE0075EE09 /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = 80E5BDBD2812D3DE0075EE09 /* options.html */; };
+		80E5BDC02812D4130075EE09 /* options.js in Resources */ = {isa = PBXBuildFile; fileRef = 80E5BDBF2812D4130075EE09 /* options.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +100,9 @@
 		80CD48A22809FFB6003FC39B /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
 		80CD48A42809FFB6003FC39B /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
 		80CD48A62809FFB6003FC39B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80CD48B7280A0FD7003FC39B /* header.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = header.js; sourceTree = "<group>"; };
+		80E5BDBD2812D3DE0075EE09 /* options.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = options.html; sourceTree = "<group>"; };
+		80E5BDBF2812D4130075EE09 /* options.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = options.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +222,9 @@
 				80CD48A02809FFB6003FC39B /* popup.html */,
 				80CD48A22809FFB6003FC39B /* popup.css */,
 				80CD48A42809FFB6003FC39B /* popup.js */,
+				80CD48B7280A0FD7003FC39B /* header.js */,
+				80E5BDBD2812D3DE0075EE09 /* options.html */,
+				80E5BDBF2812D4130075EE09 /* options.js */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -375,11 +384,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				80CD489D2809FFB6003FC39B /* background.js in Resources */,
+				80CD48B8280A0FD7003FC39B /* header.js in Resources */,
 				80CD48A32809FFB6003FC39B /* popup.css in Resources */,
+				80E5BDC02812D4130075EE09 /* options.js in Resources */,
 				80CD48A12809FFB6003FC39B /* popup.html in Resources */,
 				80CD48992809FFB6003FC39B /* images in Resources */,
 				80CD489B2809FFB6003FC39B /* manifest.json in Resources */,
 				80CD48972809FFB6003FC39B /* _locales in Resources */,
+				80E5BDBE2812D3DE0075EE09 /* options.html in Resources */,
 				80CD489F2809FFB6003FC39B /* content.js in Resources */,
 				80CD48A52809FFB6003FC39B /* popup.js in Resources */,
 			);

@@ -16,12 +16,15 @@
 
     "background": {
         "scripts": [ "background.js" ],
-        "persistent": false
+        "persistent": false,
+		"service_worker": "background.js"
     },
+	
+	"options_page": "options.html",
 
     "content_scripts": [{
-        "js": [ "content.js" ],
-        "matches": [ "*://example.com/*" ]
+        "js": [ "content.js", "issafe.js" ],
+		"matches": [ "<all_urls>" ]
     }],
 
     "browser_action": {
@@ -36,5 +39,16 @@
         }
     },
 
-    "permissions": [ ]
+	"permissions": [
+		"nativeMessaging",
+		"activeTab",
+		"tabs",
+		"background",
+		"<all_urls>",
+		"webRequest",
+		"webRequestBlocking",
+		"contentSettings",
+		"scripting",
+		"storage"
+	]
 }
