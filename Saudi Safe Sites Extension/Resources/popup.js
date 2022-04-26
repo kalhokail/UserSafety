@@ -9,9 +9,43 @@ browser.runtime.onMessage.addListener(
 		response = JSON.parse(xmlHttp.responseText)
 		
 		is_safe = response.status
+		
+		const params = new Proxy(new URLSearchParams(window.location.search), {
+		  get: (searchParams, prop) => searchParams.get(prop),
+		});
 
-		var frame = document.getElementById("frame")
-		frame.src = response.status
+		let value = params.url; // "some_value"
+		
+		xmlHttp.open( "GET", "https://api.al-hokail.com/security/isdomainsafe/" + value, false); // false for synchronous request
+		xmlHttp.send();
+		
+		response = JSON.parse(xmlHttp.responseText)
+	
+		d = document.getElementById("domain");
+		d.innerHTML = response.domain;
+		
+		s = document.getElementById("status_en");
+		s.innerHTML = response.short_description.en;
+		
+		s = document.getElementById("status_ar");
+		s.innerHTML = response.short_description.ar;
+		
+		if(response.status === 'safe')
+		{
+			i = document.getElementById("icon");
+			i.src = "img/safe.png";
+		}
+		else
+		{
+			i = document.getElementById("icon");
+			i.src = "img/not_safe.png";
+		}
+		
+		desc = document.getElementById("desc_en");
+		desc.innerHTML = response.description.en;
+		
+		desc = document.getElementById("desc_ar");
+		desc.innerHTML = response.description.ar;
 	}
 );
 

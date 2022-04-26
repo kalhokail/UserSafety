@@ -23,10 +23,15 @@ def lambda_handler(event, context):
 
     url = domain['protocol'] + "://" + domain['host']
     
-    if domain['main_host'] == "apple.com":
-        print("https://cdn.al-hokail.com/safety/safe.html?url=" + url)
-        return {"status": "https://cdn.al-hokail.com/safety/safe.html?url=" + url}
-    elif domain['main_host'] == "google.com":
-        return {"status": "https://cdn.al-hokail.com/safety/notsafe.html?url=" + url}
-    else:
-        return {"status": "https://cdn.al-hokail.com/safety/unknown.html?url=" + url}
+	return {
+        'domain': 'apple.com',
+        'status': 'notsafe',
+        'short_description': {
+            'ar': 'الموقع آمن',
+            'en': 'Site is safe.'
+        },
+        'description':{
+            'ar': 'هذا الموقع آمن وبإمكانك استخدامة',
+            'en': '<h2>This website</h2> is safe and you can use it.'
+        }
+    }

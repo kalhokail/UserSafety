@@ -107,9 +107,9 @@
 		80E5BDBF2812D4130075EE09 /* options.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = options.js; sourceTree = "<group>"; };
 		80E5BDC228169CB50075EE09 /* lambda_function.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = lambda_function.py; sourceTree = "<group>"; };
 		80E5BDC528169E6B0075EE09 /* buildspec.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = buildspec.yml; sourceTree = "<group>"; };
-		80E5BDC92816B7540075EE09 /* unknown.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = unknown.html; sourceTree = "<group>"; };
-		80E5BDCA2816B7540075EE09 /* notsafe.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = notsafe.html; sourceTree = "<group>"; };
-		80E5BDCB2816B7550075EE09 /* safe.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = safe.html; sourceTree = "<group>"; };
+		80E5BDCE2817CB510075EE09 /* warning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warning.png; sourceTree = "<group>"; };
+		80E5BDCF2817CB590075EE09 /* not_safe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = not_safe.png; sourceTree = "<group>"; };
+		80E5BDD02817CB910075EE09 /* safe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = safe.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,8 +147,8 @@
 		80CD48522809FFB0003FC39B = {
 			isa = PBXGroup;
 			children = (
-				80E5BDC82816B7370075EE09 /* html */,
 				80E5BDC528169E6B0075EE09 /* buildspec.yml */,
+				80E5BDC82816B7370075EE09 /* html */,
 				80E5BDC128169C940075EE09 /* lambda */,
 				80CD485D2809FFB0003FC39B /* Saudi Safe Sites */,
 				80CD487B2809FFB6003FC39B /* Saudi Safe SitesTests */,
@@ -266,11 +266,19 @@
 		80E5BDC82816B7370075EE09 /* html */ = {
 			isa = PBXGroup;
 			children = (
-				80E5BDCA2816B7540075EE09 /* notsafe.html */,
-				80E5BDCB2816B7550075EE09 /* safe.html */,
-				80E5BDC92816B7540075EE09 /* unknown.html */,
+				80E5BDCC2817CAB70075EE09 /* img */,
 			);
 			path = html;
+			sourceTree = "<group>";
+		};
+		80E5BDCC2817CAB70075EE09 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				80E5BDCE2817CB510075EE09 /* warning.png */,
+				80E5BDD02817CB910075EE09 /* safe.png */,
+				80E5BDCF2817CB590075EE09 /* not_safe.png */,
+			);
+			path = img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
